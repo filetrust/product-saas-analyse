@@ -4,10 +4,10 @@
       description: Provides insight into the composition of files.
       version: 0.1.9
     servers:
-      - url: https://xugc5ib648.execute-api.eu-west-1.amazonaws.com/Prod/
+      - url: https://24dyhnzh5h.execute-api.eu-west-2.amazonaws.com/Beta/az/
         description: AWS
     paths:
-      /api/Analyse:
+      /fileanalysis/analyse:
         post:
           summary: Returns an XML analysis of the file.
           description: Returns an XML analysis of the file by the Glasswall Engine.
